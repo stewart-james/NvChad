@@ -9,7 +9,7 @@ require("base46").load_highlight "treesitter"
 local options = {
   ensure_installed = {
     "lua",
-    "omnisharp"
+    "c_sharp"
   },
 
   highlight = {
