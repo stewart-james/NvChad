@@ -64,4 +64,13 @@ lspconfig.sumneko_lua.setup {
   },
 }
 
+
+local pid = vim.fn.getpid()
+
+lspconfig.omnisharp.setup {
+  on_attach = M.on_attach,
+  capabilities = M.capabilities,
+  cmd = { vim.fn.stdpath('data') .. "/mason/packages/omnisharp/omnisharp.exe", "--languageserver", "--hostPID", tostring(pid)},
+}
+
 return M
