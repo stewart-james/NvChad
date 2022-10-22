@@ -14,7 +14,7 @@ M.ui = {
   hl_add = {},
   hl_override = {},
   changed_themes = {},
-  theme_toggle = { "onedark", "one_light" },
+  theme_toggle = { "gruvbox", "gruvchad" },
   theme = "onedark", -- default theme
   transparency = false,
 }

@@ -4,6 +4,8 @@ local plugins = {
 
   ["lewis6991/impatient.nvim"] = {},
 
+  ["vim-test/vim-test"] = {},
+
   ["wbthomason/packer.nvim"] = {
     cmd = require("core.lazy_load").packer_cmds,
     config = function()
