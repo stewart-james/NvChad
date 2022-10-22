@@ -8,8 +8,8 @@ require("base46").load_highlight "nvimtree"
 
 local options = {
   filters = {
-    dotfiles = false,
-    exclude = { vim.fn.stdpath "config" .. "/lua/custom" },
+    dotfiles = true,
+    exclude = { vim.fn.stdpath "config" .. "/lua/custom", ".editorconfig" },
   },
   disable_netrw = true,
   hijack_netrw = true,
